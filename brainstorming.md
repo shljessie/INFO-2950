@@ -2,7 +2,7 @@
 
 Repository link: <https://github.com/shljessie/INFO-2950>
 
-## Dataset Ideas
+## Dataset Ideas:  Google QuickDraw Dataset Analyzing Human Drawing Patterns
 
 ### Idea 1
 https://github.com/googlecreativelab/quickdraw-dataset 
@@ -15,23 +15,45 @@ data and choose a certain drawing or a category of drawing to analyze the
 variations of drawings between people from different countries. 
 
 #### About the DataSet
-The Quick Draw Dataset is a collection of 50 million drawings across 345 categories, contributed by players of the game Quick, Draw!. The drawings were captured as timestamped vectors, tagged with metadata including what the player was asked to draw and in which country the player was located. You can browse the recognized drawings on <quickdraw.withgoogle.com/data>
+The Quick Draw Dataset is a collection of 50 million drawings across 345 categories, contributed by players of the game Quick, Draw!. The drawings were captured as timestamped vectors, tagged with metadata including what the player was asked to draw and in which country the player was located. You can browse the recognized drawings on https://quickdraw.withgoogle.com/data 
 The data contains of the keyid, category of drawing, whether it was recognized by the game, country code, and strokes used in the drawing. 
 
 
 
-### Idea 2
-https://www.movebank.org/cms/movebank-main
+### Idea 2 : Spotify - What songs are replayed the most
+https://developer.spotify.com/documentation/web-api/
 
-Tracking animal data 
+One project I could do is to classify spotify users by
+different tastes in music and see what correlation there is between
+different spotify users in 
 
-Reddit has a *very* comprehensive API that makes it relatively easy to extract
-big datasets. We could build a dataset from that API without too much trouble
-and predict, for example, how many upvotes a post gets or something...maybe we
-could find a domain-appropriate complement dataset to cross-compare.
 
-### Idea 3
+#### About the DataSet
+Using the Spotify Web API and Beautiful Soup, I can webscrape 
+data from Spotify to use for my project. I can get data such as 
+Artist, Album, Genre, ...etc
 
-### Idea 4
+
+### Idea 3 : Podcast Analysis 
+
+https://podcastindustryinsights.com/api/
+
+After conducting a data exploratory analysis of people 
+listening to podcasts, I could predict what podcasts are more 
+popular to certain age groups, genders, backgrounds and single out a few factors that 
+I belive could be indicative of popular podcasts for a certain group.
+
+#### About the DataSet
+This is a API that helps people webscrape data from podcast industries based
+on different platforms and offers a detailed dataset for Apple Podcasts.
+I can get data about different category podcasts, the number of episodes, number of
+people listening to podcasts for each episode.
+
+### Idea 4 : Does the number of reviews
+
+
+
 
 ### Idea 5
+
+### Questions for Reviewers
