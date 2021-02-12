@@ -4,60 +4,51 @@ Repository link: <https://github.com/shljessie/INFO-2950>
 
 ## Dataset Ideas
 
-### Idea 1 Location Data Analysis
-https://developer.spotify.com/documentation/web-api/
+### Idea 1 : Citybike Data Analysis
 
-One project I could do is to classify spotify users by
-different tastes in music and see what correlation there is between
-different spotify users in 
+ **Citibike Station bike availability affected by time, location, weather**
 
+**Explanation**
+Citi Bike is a privately owned public bicycle sharing system serving the New York City boroughs of the Bronx, Brooklyn, Manhattan, and Queens, as well as Jersey City, New Jersey.
+I seek to examine CitiBike ridership data, joined with daily NYC weather data, to study the impact of weather, time, location on shared bike usage and generate a predictive model which can estimate the number of trips that would be taken on each day.
 
-#### About the DataSet
-Using the Spotify Web API and Beautiful Soup, I can webscrape 
-data from Spotify to use for my project. I can get data such as 
-Artist, Album, Genre, ...etc
+**Data**
+- Google geocoding API : To get the geolocations of the bike data and visualize them into classified location sections
+ https://developers.google.com/maps/documentation/geocoding/overview
+- citibike mobility survey : https://www1.nyc.gov/html/dot/html/about/citywide-mobility-survey.shtml
+survey results of main reasons people use citibike
+- citibike trips data : https://s3.amazonaws.com/tripdata/index.html
+["tripduration","starttime","stoptime","start station id","start station name","start station latitude","start station longitude","end station id","end station name","end station latitude","end station longitude","bikeid","usertype","birth year","gender"]
+-  daily weather data : https://rapidapi.com/community/api/open-weather-map
+ use weather api to get access to newyork weather data. choose a location to represent all of newyork. such as central park.
 
+**Things to Analyze**
+- citibike trip data based on time (mornings, days ,evenings, based weekdays, weekends ....etc) time and trip duration, time and bike numbers in different stations, time and user types.
+- weather : what weather impacts people riding citibikes? 
+- number of people riding bikes : Do more people riding bikes influence people to ride bikes too? 
+- coronavirus how did the coronavirus impact the number of people riding citibikes? 
+- users of citibike what kind of users used citibike? 
 
-### Idea 3 Web Analytics Data Analysis
-
-https://podcastindustryinsights.com/api/
-
-After conducting a data exploratory analysis of people 
-listening to podcasts, I could predict what podcasts are more 
-popular to certain age groups, genders, backgrounds and single out a few factors that 
-I belive could be indicative of popular podcasts for a certain group.
-
-#### About the DataSet
-This is a API that helps people webscrape data from podcast industries based
-on different platforms and offers a detailed dataset for Apple Podcasts.
-I can get data about different category podcasts, the number of episodes, number of
-people listening to podcasts for each episode.
-
-### Idea 3 Uber Eats data 
-
-The Eats APIs enable merchants to programmatically manage stores, menus and orders on the Uber Eats Platform. Integrate with a store’s Point-of-Sale (POS) system to drive efficiency for menu management and order handling.
+**Things to Consider**
+- Period: What period should I set? Should I consider the coronavirus or do an analysis of a time before that? 
+- Location : should I choose single location to represent all of newyork weather?
 
 
-### Idea 4 Yelp Data Analysis
+### Idea 2 : Salary Prediction / Wage changes in different industries
 
-By downloading the yelp dataset from the company, I can get data on the 
-businesses, reviews, users, friend relationships ..etc with this I can
+**Predicting the wage lifetime of different professions**
 
-### Idea 4 Salary Prediction : Data Scientist, Location of Job 
 
-### Idea 5 Sustainability Data Science : Ocean Data to Gain Insight
+**Explanation**
+Measuring the
 
-https://data.marinemammals.gov.au/report/entanglement
-Marine Data of Animal Entanglement 
-
-### Idea 6 UN Data: 
-
-http://hdr.undp.org/en/composite/Dashboard4
-UN Environmental Sustainability Data
+**Data**
+- Glassdoor salary : https://github.com/arapfaik/scraping-glassdoor-selenium
+- 
 
 
 
-### Idea 7 Bird Migration Data
+### Idea 3:  Bird Migration Data
 https://ebird.org/data/download
 Cornell E-bird Migration Data
 
@@ -79,11 +70,24 @@ which bird habitats should be better protected ...etc
  1. ground level pollution data, existing regulations vs bird watching
  2. . NEXRAD radar monitoring to calculate bird populations through biomass
 
-### Idea  : General Sustainability Data
-https://www.sciencebase.gov/catalog/item/4f4e4760e4b07f02db47df9c
-data ranging from wildfires to ocean data is available here
 
-### Idea :  Google QuickDraw Dataset Analyzing Human Drawing Patterns
+### Idea 4 :  Consumption and Environment Analysis
+
+Meat consumption data, carbon emission data. 
+calculate individual meat consumption
+compare amount of meat that is actually being produced. 
+set hypothesis we are producing more meat than we can consume. 
+take amount of meat that we are eating, look at data on where meat is being used.
+yearly human consumptions. Calculate how much waste is actually being produced. 
+individual carbon emission from a day's meal is ..
+find carbon emission data for a individual meal. 
+Set persona's if some one who eats .... much with processed foods.. 
+their carbon emission could be ...etc
+
+with organic choices we can reduce carbon emission by.. 
+
+
+### Idea 5 :  Google QuickDraw Dataset Analyzing Human Drawing Patterns
 https://github.com/googlecreativelab/quickdraw-dataset 
 
 #### Project Idea
@@ -97,6 +101,18 @@ variations of drawings between people from different countries.
 The Quick Draw Dataset is a collection of 50 million drawings across 345 categories, contributed by players of the game Quick, Draw!. The drawings were captured as timestamped vectors, tagged with metadata including what the player was asked to draw and in which country the player was located. You can browse the recognized drawings on https://quickdraw.withgoogle.com/data 
 The data contains of the keyid, category of drawing, whether it was recognized by the game, country code, and strokes used in the drawing. 
 
+
+
+### Idea 6:  Location Data Analysis
+https://developer.spotify.com/documentation/web-api/
+
+One project I could do is to classify spotify users by different tastes in music and see what correlation there is between different spotify users in 
+
+
+#### About the DataSet
+Using the Spotify Web API and Beautiful Soup, I can webscrape 
+data from Spotify to use for my project. I can get data such as 
+Artist, Album, Genre, ...etc
 
 
 ### Questions for Reviewers
