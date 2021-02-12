@@ -34,21 +34,7 @@ survey results of main reasons people use citibike
 - Location : should I choose single location to represent all of newyork weather?
 
 
-### Idea 2 : Salary Prediction / Wage changes in different industries
-
-**Predicting the wage lifetime of different professions**
-
-
-**Explanation**
-Measuring the
-
-**Data**
-- Glassdoor salary : https://github.com/arapfaik/scraping-glassdoor-selenium
-- 
-
-
-
-### Idea 3:  Bird Migration Data
+### Idea 2:  Bird Migration Data
 https://ebird.org/data/download
 Cornell E-bird Migration Data
 
@@ -100,19 +86,6 @@ variations of drawings between people from different countries.
 #### About the DataSet
 The Quick Draw Dataset is a collection of 50 million drawings across 345 categories, contributed by players of the game Quick, Draw!. The drawings were captured as timestamped vectors, tagged with metadata including what the player was asked to draw and in which country the player was located. You can browse the recognized drawings on https://quickdraw.withgoogle.com/data 
 The data contains of the keyid, category of drawing, whether it was recognized by the game, country code, and strokes used in the drawing. 
-
-
-
-### Idea 6:  Location Data Analysis
-https://developer.spotify.com/documentation/web-api/
-
-One project I could do is to classify spotify users by different tastes in music and see what correlation there is between different spotify users in 
-
-
-#### About the DataSet
-Using the Spotify Web API and Beautiful Soup, I can webscrape 
-data from Spotify to use for my project. I can get data such as 
-Artist, Album, Genre, ...etc
 
 
 ### Questions for Reviewers
