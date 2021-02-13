@@ -28,10 +28,17 @@ survey results of main reasons people use citibike
 - number of people riding bikes : Do more people riding bikes influence people to ride bikes too? 
 - coronavirus how did the coronavirus impact the number of people riding citibikes? 
 - users of citibike what kind of users used citibike? 
+- How fast do Citi Bike riders tend to travel? (travel time and distance)
+- How accurate are Google Maps cycling time estimates? 
+- How do age and gender impact biking speed?
+- How did coronavirus impact citibike bike  trips?
+- Gender? Age? 
+- Korea bike share system. Comparision maybe
 
 **Things to Consider**
 - Period: What period should I set? Should I consider the coronavirus or do an analysis of a time before that? 
 - Location : should I choose single location to represent all of newyork weather?
+- Main Questions, Problems that might arise/ setting hypothesis.
 
 
 ### Idea 2:  Bird Migration Data
