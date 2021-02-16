@@ -4,7 +4,7 @@ Repository link: <https://github.com/shljessie/INFO-2950>
 
 ## Dataset Ideas
 
-### Idea 1 : Citybike Data Analysis
+### Idea 1 : Citibike Data Analysis
 
  **Citibike Station bike availability affected by time, location, weather**
 
