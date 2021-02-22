@@ -90,7 +90,13 @@ This data has been processed to remove trips that are taken by staff as they ser
 
 - Columns: ["tripduration","starttime","stoptime","start station id","start station name","start station latitude","start station longitude","end station id","end station name","end station latitude","end station longitude","bikeid","usertype","birth year","gender"]
 
+### Idea 4: What is the uniqueness of each character in keeping up with the Khardhasians 
+We have found the transcripts for all of the keeping up with the Khardashians episodes 
+- period: all of the keeping up with the khardashians data 
 
+This data is in the format of a HTML file, so we can use the beautiful soup libary to convert it to a useable file format. 
+We can then ask questions such as: what is the unqiueness of each character compared to each other, where each character 
+is represented by all of the words they said. From this we can find out who the most unqiue character is.
 
 ### Questions for Reviewers
 
