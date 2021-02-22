@@ -4,39 +4,50 @@ Repository link: <https://github.com/shljessie/INFO-2950>
 
 ## Dataset Ideas
 
-### Idea 1 : Citibike Data Analysis
+### Idea 1 : Did Coronavirus have an impact on people riding Citibike? 
 
  **Citibike Station bike availability affected by time, location, weather**
 
 **Explanation**
 Citi Bike is a privately owned public bicycle sharing system serving the New York City boroughs of the Bronx, Brooklyn, Manhattan, and Queens, as well as Jersey City, New Jersey.
-I seek to examine CitiBike ridership data, joined with daily NYC weather data, to study the impact of weather, time, location on shared bike usage and generate a predictive model which can estimate the number of trips that would be taken on each day.
+We seek to examine CitiBike ridership data, joined with daily NYC weather data, to study the impact of weather, time, location on shared bike usage and generate a predictive model which can estimate the number of trips that would be taken on each day.
 
 **Data**
-- Google geocoding API : To get the geolocations of the bike data and visualize them into classified location sections
- https://developers.google.com/maps/documentation/geocoding/overview
-- citibike mobility survey : https://www1.nyc.gov/html/dot/html/about/citywide-mobility-survey.shtml
-survey results of main reasons people use citibike
-- citibike trips data : https://s3.amazonaws.com/tripdata/index.html
-["tripduration","starttime","stoptime","start station id","start station name","start station latitude","start station longitude","end station id","end station name","end station latitude","end station longitude","bikeid","usertype","birth year","gender"]
--  daily weather data : https://rapidapi.com/community/api/open-weather-map
- use weather api to get access to newyork weather data. choose a location to represent all of newyork. such as central park.
+1.  Citibike Trips Data : https://s3.amazonaws.com/tripdata/index.html
+
+- Period : Monthly data. After we choose the period length we can download data accordingly
+- Location: NYC 
+- Provider : Citibike ( Provided by Lyft )
+
+This data has been processed to remove trips that are taken by staff as they service and inspect the system, trips that are taken to/from any of our “test” stations (which we were using more in June and July 2013), and any trips that were below 60 seconds in length (potentially false starts or users trying to re-dock a bike to ensure it's secure).
+
+- Columns: ["tripduration","starttime","stoptime","start station id","start station name","start station latitude","start station longitude","end station id","end station name","end station latitude","end station longitude","bikeid","usertype","birth year","gender"]
+ 
+2. Coronavirus Data: https://data.cityofnewyork.us/Health/COVID-19-Daily-Counts-of-Cases-Hospitalizations-an/rc75-m7u3
+
+- Period : 02.29.2020 - 12.16.2020
+- Location: NYC 
+- Provider : Department of Health and Mental Hygiene (DOHMH)
+
+: This dataset has 39 columns describing different statistics relating to the coronavirus such as the number of people hospitalized, new infections, and deaths. This dataset reports coronavirus conditions of each day. 
+
+Daily count of NYC residents who tested positive for SARS-CoV-2, who were hospitalized with COVID-19, and deaths among COVID-19 patients.
+
 
 **Things to Analyze**
 - citibike trip data based on time (mornings, days ,evenings, based weekdays, weekends ....etc) time and trip duration, time and bike numbers in different stations, time and user types.
-- weather : what weather impacts people riding citibikes? 
 - number of people riding bikes : Do more people riding bikes influence people to ride bikes too? 
-- coronavirus how did the coronavirus impact the number of people riding citibikes? 
+- coronavirus how did the coronavirus impact the number of people riding citibikes? Comparing 
 - users of citibike what kind of users used citibike? 
 - How fast do Citi Bike riders tend to travel? (travel time and distance)
 - How accurate are Google Maps cycling time estimates? 
 - How do age and gender impact biking speed?
 - How did coronavirus impact citibike bike  trips?
-- Gender? Age? 
-- Korea bike share system. Comparision maybe
+
 
 **Things to Consider**
 - Period: What period should I set? Should I consider the coronavirus or do an analysis of a time before that? 
+- Prediction Problem. If we are trying to do some sort of prediction in the end, 
 - Location : should I choose single location to represent all of newyork weather?
 - Main Questions, Problems that might arise/ setting hypothesis.
 
@@ -64,35 +75,25 @@ which bird habitats should be better protected ...etc
  2. . NEXRAD radar monitoring to calculate bird populations through biomass
 
 
-### Idea 4 :  Consumption and Environment Analysis
+### Idea 3: What is the impact of Weather on Citibike Usage?
 
-Meat consumption data, carbon emission data. 
-calculate individual meat consumption
-compare amount of meat that is actually being produced. 
-set hypothesis we are producing more meat than we can consume. 
-take amount of meat that we are eating, look at data on where meat is being used.
-yearly human consumptions. Calculate how much waste is actually being produced. 
-individual carbon emission from a day's meal is ..
-find carbon emission data for a individual meal. 
-Set persona's if some one who eats .... much with processed foods.. 
-their carbon emission could be ...etc
+On this topic we plan to explore the effect of weather on citibike usage. 
 
-with organic choices we can reduce carbon emission by.. 
+**Data**
+1.  Citibike Trips Data : https://s3.amazonaws.com/tripdata/index.html
 
+- Period : Monthly data. After we choose the period length we can download data accordingly
+- Location: NYC 
+- Provider : Citibike ( Provided by Lyft )
 
-### Idea 5 :  Google QuickDraw Dataset Analyzing Human Drawing Patterns
-https://github.com/googlecreativelab/quickdraw-dataset 
+This data has been processed to remove trips that are taken by staff as they service and inspect the system, trips that are taken to/from any of our “test” stations (which we were using more in June and July 2013), and any trips that were below 60 seconds in length (potentially false starts or users trying to re-dock a bike to ensure it's secure).
 
-#### Project Idea
-Using the Google Quickdraw Dataset to explore the different
-variations of people's drawings. Stereotypes, culture influences,
-cognitive processes of human drawing can be studied. I could analyze the
-data and choose a certain drawing or a category of drawing to analyze the 
-variations of drawings between people from different countries. 
+- Columns: ["tripduration","starttime","stoptime","start station id","start station name","start station latitude","start station longitude","end station id","end station name","end station latitude","end station longitude","bikeid","usertype","birth year","gender"]
 
-#### About the DataSet
-The Quick Draw Dataset is a collection of 50 million drawings across 345 categories, contributed by players of the game Quick, Draw!. The drawings were captured as timestamped vectors, tagged with metadata including what the player was asked to draw and in which country the player was located. You can browse the recognized drawings on https://quickdraw.withgoogle.com/data 
-The data contains of the keyid, category of drawing, whether it was recognized by the game, country code, and strokes used in the drawing. 
 
 
 ### Questions for Reviewers
+
+1. It was mentioned in the student guidebook that there was caution for using COVID-19 data in our project. Would it be okay to select a period of time were unchangeable COVID data was provided
+2. 
+3. 
