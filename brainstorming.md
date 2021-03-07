@@ -101,5 +101,5 @@ is represented by all of the words they said. From this we can find out who the 
 ### Questions for Reviewers
 
 1. It was mentioned in the student guidebook that there was caution for using COVID-19 data in our project. Would it be okay to select a period of time were unchangeable COVID data was provided
-2. 
+2. Open vs Closed quesitions. For example should our question be more like: how does usage vary with months or should it be more open like how to increase 
 3. 
