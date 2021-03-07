@@ -86,20 +86,44 @@ On this topic we plan to explore the effect of weather on citibike usage.
 - Location: NYC 
 - Provider : Citibike ( Provided by Lyft )
 
+2. Weather Data
+- Using an API to scrape weather data on 
+- https://www.visualcrossing.com/resources/blog/five-easy-weather-api-calls-to-get-the-weather-data-you-need/
+
 This data has been processed to remove trips that are taken by staff as they service and inspect the system, trips that are taken to/from any of our “test” stations (which we were using more in June and July 2013), and any trips that were below 60 seconds in length (potentially false starts or users trying to re-dock a bike to ensure it's secure).
 
 - Columns: ["tripduration","starttime","stoptime","start station id","start station name","start station latitude","start station longitude","end station id","end station name","end station latitude","end station longitude","bikeid","usertype","birth year","gender"]
+
+2. 
 
 ### Idea 4: What is the uniqueness of each character in keeping up with the Khardhasians 
 We have found the transcripts for all of the keeping up with the Khardashians episodes 
 - period: all of the keeping up with the khardashians data 
 
-This data is in the format of a HTML file, so we can use the beautiful soup libary to convert it to a useable file format. 
-We can then ask questions such as: what is the unqiueness of each character compared to each other, where each character 
-is represented by all of the words they said. From this we can find out who the most unqiue character is.
+**Data**
+- This data is in the format of a HTML file, so we can use the beautiful soup libary to convert it to a useable file format. 
+
+
+**Things to Analyze**
+- We can then ask questions such as: what is the unqiueness of each character compared to each other, where each character is represented by all of the words they said. From this we can find out who the most unqiue character is.
+
+
+
+
+# Idea 
+
 
 ### Questions for Reviewers
 
-1. It was mentioned in the student guidebook that there was caution for using COVID-19 data in our project. Would it be okay to select a period of time were unchangeable COVID data was provided
-2. Open vs Closed quesitions. For example should our question be more like: how does usage vary with months or should it be more open like how to increase 
-3. 
+1. If we are doing a citibike analysis on a topic not related to COVID, should we or should we not include 2020? We feel that citibike riding trips may be greatly affected by COVID. Is it okay if we don't include 2020? 
+
+2. One topic we are thinking of doing is how citibike is affecting air quality in New York. Do you think this may be too simple of a question to ask? 
+
+3. Another topic we are thinking of doing is citibike and gentrification, if we were to divide citibike users by region where they live, and the data types we have currently in the citibike trip data are 
+
+["tripduration","starttime","stoptime","start station id","start station name","start station latitude","start station longitude","end station id","end station name","end station latitude","end station longitude","bikeid","usertype","birth year","gender"] 
+
+what do you suggest would be the best way of doing this to find this out? Right now we are thinking of comparing morning and evening travels of citibike on the weekdays (when people leave for work or come back home) Do you think this would be an accurate estimate? We are trying to think of some biases that may arise from this. 
+
+4. Is there anything we should consider, be cautious about when using citibike data? 
+
