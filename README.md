@@ -1,6 +1,6 @@
 # Citibike Analysis
 
-Seonghee Lee
-Chelsea Choi
+Seonghee Lee, 
+Chelsea Choi,
 Nicholas Rahardja
 
