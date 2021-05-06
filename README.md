@@ -14,6 +14,7 @@ https://drive.google.com/drive/folders/197_d1BwPHXmVuyKA6I7UEyEw4Nqo8dAk
 https://drive.google.com/drive/folders/1glgD5ly1ABej2GDXzc-iUMjpu4HkItwa?usp=sharing
 
 1. Context of Work¶
+
 Bike Sharing comes with many benefits such as providing free or affordable access to bicycles for short-distance trips. By doing so in an urban area, this reduces congestion, noise, and air pollution.
 
 However whether or not these bike sharing systems are truly accessible for all is questionable. Since the accessibility of these bike sharing systems depend heavily on where the stations are located, it is very likely that where you live becomes the deciding factor in whether or not you will be able to use these bikes. In addition to this, other factors such as the condition of roads and price of usage may be factors that prohibit people from actively using citibikes.
